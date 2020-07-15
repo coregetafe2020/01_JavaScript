@@ -134,13 +134,26 @@ for (i = 0; i < 10; i++) {
     console.log('En cada iteración i tendrá el valor ' + i);
 }
 
+
+// Otro ejemplazo de for All credits to Jose María de Bona
+
+let password;
+let contador = 1;
+for (password = prompt("Escribe tu contraseña");
+     password !== "1234";
+     password = prompt("Contraseña no válida, intente de nuevo")) {
+        contador++;
+}
+
+alert("Contraseña correcta. Intentos: " + contador)
+
 // Estructura iterativa While
 
 // while (condicion) {
     // código a ejecutar mientras se cumpla esa condición
 // }
 
-let password;
+// let password;
 
 // while (password !== '1234') {
 //     password = prompt('Escriba su contraseña');
