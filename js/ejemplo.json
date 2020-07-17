@@ -1,0 +1,8 @@
+{
+    "nombre": "Juan",
+    "apellidos": "Pérez",
+    "direcciones" : [
+        {"calle":"Juan XXII", "ciudad": "Cáceres"},
+        {"calle":"Ppe Vergara", "ciudad": "Madrid"}
+    ]
+}
